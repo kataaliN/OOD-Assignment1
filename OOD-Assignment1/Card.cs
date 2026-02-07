@@ -8,8 +8,8 @@ namespace OOD_Assignment1
 {
     class Card : ICard
     {
-        public Rank rank;
-        public Suit suit;
+        public Rank rank { get; }
+        public Suit suit { get; }
 
         public Card (Rank rank, Suit suit) //constructor
         {
