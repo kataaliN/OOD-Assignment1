@@ -9,8 +9,8 @@ namespace OOD_Assignment1
     interface ICard
     {
         //start with properties needed for all cards
-        string rank { get; }
-        int suit {  get; }
+        Rank rank { get; }
+        Suit suit {  get; }
 
         //define methods all cards would need to implement
         bool ranksMatch(Rank rank);
